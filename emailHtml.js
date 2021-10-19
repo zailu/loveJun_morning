@@ -1,4 +1,4 @@
-function fn(weatherData, lifeData, word, imgurl, lovingDays) {
+function fn(weatherData, lifeData, content, imgurl, lovingDays) {
   const { daily: weatherDataDaily } = weatherData;
   const { daily } = lifeData;
 
@@ -27,7 +27,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <!-- 每日一句 -->
         <div>
           <p style="font-size: 14px; text-indent: 2em; font-style: italic;">
-            ${word}
+            ${content}
           </p>
         </div>
         <!-- 天气 -->
