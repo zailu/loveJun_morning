@@ -8,6 +8,6 @@ module.exports = {
   weatherKey: '33369e365fe84eb68876f52a2ae51cca', // 和风天气key
   location: '101230201',  // 和风天气-厦门的id
   type: '1,3,9', // 和风天气-生活指数type
-  tianXingKey: '10a0b8b423af1448982e50a6909e0230', // 天行数据的key
+  tianXingKey: 'eb75297818f2413f24e1f1f76662bccd', // 天行数据的key
   startDay: '2016-10-12', // 在一起的日期
 }
