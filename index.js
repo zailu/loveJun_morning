@@ -42,6 +42,7 @@ async function init() {
     );
     const oneData = await oneRes.json();
     const { word, imgurl } = oneData.newslist[0];
+	
 	//获取文字
 	const oneRes2 = await fetch(
       `http://api.tianapi.com/txapi/saylove/index?key=10a0b8b423af1448982e50a6909e0230`
@@ -56,7 +57,7 @@ async function init() {
     );
 
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, word, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, content, imgurl, lovingDays);
 
     // 发送邮件;
     sendEmail({
