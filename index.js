@@ -47,7 +47,7 @@ async function init() {
       `http://api.tianapi.com/txapi/saylove/index?key=10a0b8b423af1448982e50a6909e0230`
     );
     const oneData2 = await oneRes2.json();
-    const { word } = oneData2.newslist[0];
+    const { word2 } = oneData2.newslist[0];
 
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
