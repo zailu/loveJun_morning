@@ -14,6 +14,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         <!-- 天数 -->
         <div>
           <!-- <p>今天是在一起的第${lovingDays}天！</p>-->
+		  <p>今天是想你的第${lovingDays}天！</p>
 		  <p>今天也要开开心心，元气满满哦(*￣︶￣)！</p>
         </div>
         <!-- 图片 -->
