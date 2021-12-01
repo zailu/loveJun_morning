@@ -2,8 +2,8 @@ name: xzl-helper
 
 on:
   #提交即执行
-  push:
-    branches: [ main ]
+  #push:
+    #branches: [ main ]
   #设置定时	
   schedule:
     - cron: "55 22 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点自动执行
