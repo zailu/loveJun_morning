@@ -23,7 +23,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
           <img style="width: 100%;"; src="${imgurl}" alt="图片" />
         </div>
         <!-- 每日一句 -->
-        <div style="font-size: 1rem;text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
+        <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
           ${content}
         </div>
         <!-- 天气 -->
