@@ -18,7 +18,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         </div>
         <!-- 图片 -->
         <div style="width: 100%;max-height: 35rem;overflow: hidden;padding: 0 1rem;box-sizing: border-box;border-radius: 0.6rem;position: relative;display: flex;justify-content: center;align-items: center;padding-bottom: 3.4rem;">
-          <img style="width: 100%; max-width: 768px" src="${imgurl};display: block;height: calc(100% - 5rem);margin: 0 auto;-webkit-mask: url("image/heart.png") no-repeat center/auto 125%;" alt="图片"/>
+          <img style="width: 100%; max-width: 768px" src="${imgurl}/>
           <div>今天也要开开心心，元气满满哦(*￣︶￣)！</div>
         </div>
         <!-- 每日一句 -->
