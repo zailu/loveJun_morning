@@ -10,7 +10,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-      <div style="width: 100%;height: 100%;overflow-y: scroll;box-sizing: border-box;background: rgba(255,102,102,.5);">
+      <div style="width: 100%;height: 100%;overflow-y: scroll;box-sizing: border-box;border:1px solid rgba(255,102,102,.5);">
         <!-- 天数 -->
         <div class="title">
           <!-- <p>今天是在一起的第${lovingDays}天！</p>-->
