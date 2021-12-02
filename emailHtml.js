@@ -24,7 +24,7 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
         </div>
         <!-- 每日一句 -->
         <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 3rem 2rem;background: url(https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png) no-repeat center top;background-size: 90% 100%;">
-			 <div style="padding: 2rem 0rem;font-family: "楷体";">
+			 <div style="padding: 2rem 2rem;font-family: "仿宋";">
 				 ${content}
 				 <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
 				 	 ——${author}<<${source}>>
