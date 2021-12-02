@@ -16,8 +16,7 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
           <!-- <p>今天是在一起的第${lovingDays}天！</p>-->
           <p>今天是想你的第${lovingDays}天！</p>
 		  <div>今天也要开开心心，元气满满哦</div>
-		  <div>(*￣︶￣)！</div>
-		  <img src="https://s3.bmp.ovh/imgs/2021/12/c78f040792460398.png" />
+		  <img  style="width: 50%;"; src="https://s3.bmp.ovh/imgs/2021/12/c78f040792460398.png" />
         </div>
         <!-- 图片 -->
         <div style="width: 100%;max-height: 35rem;overflow: hidden;padding: 0 1rem;box-sizing: border-box;border-radius: 0.6rem;position: relative;display: flex;justify-content: center;align-items: center;padding-bottom: 1rem;">
