@@ -23,7 +23,7 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
           <img style="width: 100%;"; src="${imgurl}" alt="图片" />
         </div>
         <!-- 每日一句 -->
-        <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
+        <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5rem 1rem;">
 			 ${content} 
         </div>
 		<div style="font-size: 0.8rem;float:right;">
@@ -32,20 +32,22 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
         <!-- 天气 -->
         <div style="font-size: 1rem;padding: 1.2rem 1rem;">
           <div style="font-weight: bold;color: #000000;"><img style="width: 10%;"; src="https://s3.bmp.ovh/imgs/2021/12/5a70dee63635fcdc.png" />厦门今日气温:${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C</div>
-          <ul class="list">
-            <li class="dress">
-              ${daily[1].name}(${daily[1].category}):
-              ${daily[1].text}
-            </li>
-            <li class="cold">
-              ${daily[2].name}(${daily[2].category}):
-              ${daily[2].text}
-            </li>
-            <li class="motion">
-              ${daily[0].name}(${daily[0].category}):
-              ${daily[0].text}
-            </li>
-          </ul>
+			<div>
+				<img style="width: 6%;"; src="https://s3.bmp.ovh/imgs/2021/12/f4e0eace95359e80.png" />
+				${daily[1].name}(${daily[1].category}):
+				${daily[1].text}
+			</div>
+			<div>
+				<img style="width: 6%;"; src="https://s3.bmp.ovh/imgs/2021/12/678c04dd55d73f81.png" />
+				${daily[2].name}(${daily[2].category}):
+				${daily[2].text}
+			</div>
+			<div>
+				<img style="width: 6%;"; src="https://s3.bmp.ovh/imgs/2021/12/f63a46c72a12aca3.png" />
+				${daily[0].name}(${daily[0].category}):
+				${daily[0].text}
+			</div>
+           
         </div>
       </div>
       </body>
