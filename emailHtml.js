@@ -37,17 +37,17 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
 				厦门今日气温:${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C
 			</div>
 			<div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
-			<div>
+			<div style="padding-bottom: 1rem;">
 				<img style="width: 6%;"; src="https://s3.bmp.ovh/imgs/2021/12/f4e0eace95359e80.png" />
 				${daily[1].name}(${daily[1].category}):
 				${daily[1].text}
 			</div>
-			<div>
+			<div style="padding-bottom: 1rem;">
 				<img style="width: 6%;"; src="https://s3.bmp.ovh/imgs/2021/12/678c04dd55d73f81.png" />
 				${daily[2].name}(${daily[2].category}):
 				${daily[2].text}
 			</div>
-			<div>
+			<div style="padding-bottom: 1rem;">
 				<img style="width: 6%;"; src="https://s3.bmp.ovh/imgs/2021/12/f63a46c72a12aca3.png" />
 				${daily[0].name}(${daily[0].category}):
 				${daily[0].text}
