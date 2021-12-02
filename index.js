@@ -45,10 +45,13 @@ async function init() {
 	
 	//获取文字
 	const oneRes2 = await fetch(
-      `http://api.tianapi.com/zaoan/index?key=10a0b8b423af1448982e50a6909e0230`
-    );
+      //早安心语
+	  //`http://api.tianapi.com/zaoan/index?key=10a0b8b423af1448982e50a6909e0230`
+	  //历史的今天
+	  `http://api.tianapi.com/lishi/index?key=10a0b8b423af1448982e50a6909e0230`
+	);
     const oneData2 = await oneRes2.json();
-    const { content } = oneData2.newslist[0];
+    const { content } = oneData2.newslist;
 
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(

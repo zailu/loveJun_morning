@@ -24,7 +24,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         </div>
         <!-- 每日一句 -->
         <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
-          ${content}
+          ${content[0]['lsdate']}:${content[0]['title']}
         </div>
         <!-- 天气 -->
         <div style="font-size: 1rem;padding: 1.2rem 1rem;">
