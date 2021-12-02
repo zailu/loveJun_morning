@@ -47,11 +47,11 @@ async function init() {
 	const oneRes2 = await fetch(
       //早安心语
 	  //`http://api.tianapi.com/zaoan/index?key=10a0b8b423af1448982e50a6909e0230`
-	  //最美宋词
-	  `http://api.tianapi.com/zmsc/index?key=10a0b8b423af1448982e50a6909e0230`
+	  //古代情诗
+	  `http://api.tianapi.com/qingshi/index?key=10a0b8b423af1448982e50a6909e0230`
 	);
     const oneData2 = await oneRes2.json();
-    const { content, source } = oneData2.newslist[0];
+    const { content, source, author } = oneData2.newslist[0];
 
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
@@ -60,7 +60,7 @@ async function init() {
     );
 
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, content, source, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, content, source, author, imgurl, lovingDays);
 
     // 发送邮件;
     sendEmail({

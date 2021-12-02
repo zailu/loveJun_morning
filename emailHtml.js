@@ -1,4 +1,4 @@
-function fn(weatherData, lifeData, content, source, imgurl, lovingDays) {
+function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) {
   const { daily: weatherDataDaily } = weatherData;
   const { daily } = lifeData;
 
@@ -27,7 +27,7 @@ function fn(weatherData, lifeData, content, source, imgurl, lovingDays) {
 			 ${content} 
         </div>
 		<div style="font-size: 0.8rem;font-family:"微软雅黑";float:right;">
-			 ———${source}
+			 ———${author}<<${source}>>
 		</div>
         <!-- 天气 -->
         <div style="font-size: 1rem;padding: 1.2rem 1rem;">
