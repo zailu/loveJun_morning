@@ -2,7 +2,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
   const { daily: weatherDataDaily } = weatherData;
   const { daily } = lifeData;
   const { newslist } = content;
-  const { num } = newslist.length;
+  const { num } = content.length;
 
   return `<!DOCTYPE html>
     <html lang="en">
