@@ -27,7 +27,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
           <!-- ${newslist[1]['lsdate']}:${newslist[1]['title']} -->
 		  <!-- ${newslist.length} -->
-		  for($i=0;$i<10;$i++){
+		  for(${i}=0;${i}<10;${i++}){
 			  ${i}
 		  }
 		  
