@@ -51,7 +51,7 @@ async function init() {
 	  `http://api.tianapi.com/zmsc/index?key=10a0b8b423af1448982e50a6909e0230`
 	);
     const oneData2 = await oneRes2.json();
-    const { source } = oneData2.newslist[0];
+    const { source } = oneData2.newslist[1];
 
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
