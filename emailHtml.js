@@ -1,4 +1,4 @@
-function fn(weatherData, lifeData, content,source, imgurl, lovingDays) {
+function fn(weatherData, lifeData, content, source, imgurl, lovingDays) {
   const { daily: weatherDataDaily } = weatherData;
   const { daily } = lifeData;
 
