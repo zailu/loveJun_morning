@@ -26,8 +26,8 @@ function fn(weatherData, lifeData, content, source, imgurl, lovingDays) {
         <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
 			 ${content} 
         </div>
-		<div style="font-size: 0.8rem;font-family:"微软雅黑" ">
-			 ———— ${source}
+		<div style="font-size: 0.8rem;font-family:"微软雅黑";">
+			 ${source}
 		</div>
         <!-- 天气 -->
         <div style="font-size: 1rem;padding: 1.2rem 1rem;">
