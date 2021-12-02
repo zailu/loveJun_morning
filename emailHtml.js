@@ -1,6 +1,7 @@
 function fn(weatherData, lifeData, content, imgurl, lovingDays) {
   const { daily: weatherDataDaily } = weatherData;
   const { daily } = lifeData;
+  const { newslist } = content;
 
   return `<!DOCTYPE html>
     <html lang="en">
@@ -24,7 +25,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         </div>
         <!-- 每日一句 -->
         <div style="font-size: 1rem;font-family:"微软雅黑" text-indent: 2em;font-style: italic;color: #000000;padding: 1.5px 1px;">
-			${content[0].content}  
+			${newslist[0].content}  
         </div>
         <!-- 天气 -->
         <div style="font-size: 1rem;padding: 1.2rem 1rem;">
