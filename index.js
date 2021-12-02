@@ -5,7 +5,7 @@ const timezone = require('dayjs/plugin/timezone');
 
 const sendEmail = require('./sendEmail');
 const emailHtml = require('./emailHtml');
-
+const lovepng = require('./love.png');
 // 给dayjs添加时区选项
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -60,7 +60,7 @@ async function init() {
     );
 
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, content, source, author, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, content, source, author, imgurl, lovingDays, lovepng);
 
     // 发送邮件;
     sendEmail({
