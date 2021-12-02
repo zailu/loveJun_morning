@@ -31,7 +31,7 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
 		</div>
         <!-- 天气 -->
         <div style="font-size: 1rem;padding: 1.2rem 1rem;">
-          <div style="font-weight: bold;color: #000000;">厦门今日气温:${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C</div>
+          <div style="font-weight: bold;color: #000000;"><img style="width: 10%;"; src="https://s3.bmp.ovh/imgs/2021/12/5a70dee63635fcdc.png" />厦门今日气温:${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C</div>
           <ul class="list">
             <li class="dress">
               ${daily[1].name}(${daily[1].category}):
