@@ -50,8 +50,9 @@ async function init() {
 	  //历史的今天
 	  `http://api.tianapi.com/lishi/index?key=10a0b8b423af1448982e50a6909e0230`
 	);
-    const oneData2 = await oneRes2.json();
-    const { content } = oneData2.newslist;
+    //const oneData2 = await oneRes2.json();
+    //const { content } = oneData2.newslist;
+	const content = await oneRes2.json();
 
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
