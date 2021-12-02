@@ -23,10 +23,12 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
           <img style="width: 100%;"; src="${imgurl}" alt="图片" />
         </div>
         <!-- 每日一句 -->
-        <div style="font-size: 1rem;text-indent: 2em;font-style: italic;color: #000000;padding: 3.5rem 1rem;background: url(https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png) no-repeat;background-size: 100% 100%;">
-			 ${content} 
-			 <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
-			 	 ——${author}<<${source}>>
+        <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 3.5rem 2rem;background: url(https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png) no-repeat;background-size: 100% 100%;">
+			 <div style="padding: 2rem 0rem;">
+				 ${content}
+				 <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
+				 	 ——${author}<<${source}>>
+				 </div>
 			 </div>
         </div>
 
