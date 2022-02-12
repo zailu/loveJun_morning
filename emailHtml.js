@@ -14,23 +14,24 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
         <!-- 天数 -->
         <div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;position: relative;color: #000000;margin-bottom: 2px;letter-spacing: 0.2rem;">
           <!-- <p>今天是在一起的第${lovingDays}天！</p>-->
-          <p>今天是想你的第${lovingDays}天！</p>
+          <p>今天是相识的第${lovingDays}天！</p>
 		  <div>今天也要开开心心，元气满满哦</div>
-		  <img  style="width: 50%;"; src="https://s3.bmp.ovh/imgs/2021/12/c78f040792460398.png" />
+		  <!-- <img  style="width: 50%;"; src="https://s3.bmp.ovh/imgs/2021/12/c78f040792460398.png" /> 爱心-->
+		  <img  style="width: 50%;"; src="https://s3.bmp.ovh/imgs/2022/02/740c380849b7e962.png" />
         </div>
         <!-- 图片 -->
         <div style="width: 100%;max-height: 35rem;overflow: hidden;padding: 0 1rem;box-sizing: border-box;border-radius: 0.6rem;position: relative;display: flex;justify-content: center;align-items: center;padding-bottom: 1rem;">
           <img style="width: 100%;"; src="${imgurl}" alt="图片" />
         </div>
         <!-- 每日一句 -->
-        <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 3rem 2rem;background: url(https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png) no-repeat center top;background-size: 90% 100%;">
-		<!-- <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 1rem 1rem;background: url(https://s3.bmp.ovh/imgs/2021/12/a7bd7218a276cf8a.png) no-repeat center top;background-size: 94% 100%;">	 -->
-			 <div style="padding: 2rem 2rem;font-family: "仿宋";color: #FFFFFF;">
+        <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 3rem 2rem;background: url(https://s3.bmp.ovh/imgs/2022/02/8f2412103e18af57.png) no-repeat center top;background-size: 90% 100%;">
+			<!-- https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png    云朵-->
+			<div style="padding: 2rem 2rem;font-family: "仿宋";color: #FFFFFF;">
 				 ${content}
 				 <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
 				 	 ——${author}<<${source}>>
 				 </div>
-			 </div>
+			</div>
         </div>
 
         <!-- 天气 -->
