@@ -11,5 +11,5 @@ module.exports = {
   //查询所在地id ： https://free-api.heweather.net/s6/weather/now?key=33369e365fe84eb68876f52a2ae51cca&location=深圳
   type: '1,3,9', // 和风天气-生活指数type
   tianXingKey: 'eb75297818f2413f24e1f1f76662bccd', // 天行数据的key
-  startDay: '2016-10-12', // 在一起的日期
+  startDay: '2022-02-06', // 认识的日期
 }
