@@ -59,7 +59,7 @@ async function init() {
     );
 
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, content, source, author, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, content, imgurl, lovingDays);
 
     // 发送邮件;
     sendEmail({
