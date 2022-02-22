@@ -27,11 +27,10 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 3rem 2rem;background: url(https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png) no-repeat center top;background-size: 90% 100%;">
 			<!-- https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png    云朵-->
 			<div style="padding: 2rem 2rem;font-family: "仿宋";color: #FFFFFF;">
-				 123
 				 <!-- ${content} -->
-				<!-- <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
+				<div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
 				 	 ——${author}<<${source}>>
-				 </div> -->
+				 </div>
 			</div>
         </div>
 

@@ -50,7 +50,7 @@ async function init() {
 	  //`http://api.tianapi.com/qingshi/index?key=10a0b8b423af1448982e50a6909e0230`
 	);
     const oneData2 = await oneRes2.json();
-    const { content } = oneData2.newslist;
+    const { content, source, author } = oneData2.newslist[0];
 
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
@@ -59,7 +59,7 @@ async function init() {
     );
 
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, content, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, content, source, author, imgurl, lovingDays);
 
     // 发送邮件;
     sendEmail({
