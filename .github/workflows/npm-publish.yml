@@ -2,12 +2,12 @@ name: xzl-helper
 
 on:
   #提交即执行
-  #push:
+  push:
     #branches: [ main ]
   #设置定时	
   schedule:
     #- cron: "55 22 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点自动执行
-    - cron: "28 15 * * *"
+    - cron: "38 15 * * *"
 jobs:
   send:
     runs-on: ubuntu-latest
