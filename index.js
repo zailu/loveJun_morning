@@ -45,9 +45,9 @@ async function init() {
 	//获取文字
 	const oneRes2 = await fetch(
       //早安心语
-	  `http://api.tianapi.com/zaoan/index?key=10a0b8b423af1448982e50a6909e0230`
+	  //`http://api.tianapi.com/zaoan/index?key=10a0b8b423af1448982e50a6909e0230`
 	  //古代情诗
-	  //`http://api.tianapi.com/qingshi/index?key=10a0b8b423af1448982e50a6909e0230`
+	  `http://api.tianapi.com/qingshi/index?key=10a0b8b423af1448982e50a6909e0230`
 	);
     const oneData2 = await oneRes2.json();
     const { content, source, author } = oneData2.newslist[0];
