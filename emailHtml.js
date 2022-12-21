@@ -28,9 +28,9 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
 			<!-- https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png    云朵-->
 			<div style="padding: 2rem 2rem;font-family: "仿宋";color: #FFFFFF;">
 				 ${content}
-				<!-- <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
+				 <div style="font-size: 0.8rem;float:right;padding: 1rem 1rem;">
 				 	 ——${author}<<${source}>>
-				 </div> -->
+				 </div> 
 			</div>
         </div>
 
