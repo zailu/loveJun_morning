@@ -13,7 +13,7 @@ function fn(weatherData, lifeData, content, source, author, imgurl, lovingDays) 
       <div style="font-size: 1rem;width: 100%;height: 100%;overflow-y: scroll;box-sizing: border-box;border:1px solid rgba(216, 131, 197, 0.5);">
         <!-- 天数 -->
         <div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;position: relative;color: #000000;margin-bottom: 2px;letter-spacing: 0.2rem;">
-          <p>今天是在一起的第${lovingDays}天啦</p>
+          <p>今天是在一起的第<span style="color:red;">${lovingDays}</span>天啦</p>
           <!-- <p>今天已经是相识的第<span style="color:red;">${lovingDays}</span>天啦</p> -->
 		  <div>今天也要开开心心，元气满满哦</div>
 		  <!-- <img  style="width: 50%;"; src="https://s3.bmp.ovh/imgs/2021/12/c78f040792460398.png" /> 爱心-->
